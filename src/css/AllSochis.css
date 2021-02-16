@@ -1,0 +1,220 @@
+.container{
+    /* border: 1px solid black; */
+    height: fit-content;
+    width: 100%;
+    padding: 10px;
+}
+
+.table-head{
+    width: 90%;
+    height: 70px;
+    /* border: 1px solid red; */
+    left:0;
+    right:0;
+    margin:auto;
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    line-height: 70px;
+    color: #5f538e;
+    background-color: #fcf5ff;
+    border: 2px solid #e7e1eb;
+}
+
+.table-column-title{
+    width: 25%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+}
+.table-column-budget{
+    width: 40%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+}
+.table-column-date-created{
+    width: 15%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+}
+.table-column-status{
+    width: 20%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+}
+
+.table-row{
+    width: 90%;
+    height: 90px;
+    /* border: 1px solid red; */
+    left:0;
+    right:0;
+    margin:auto;
+    font-size: 18px;
+    font-weight: 450;
+    text-align: center;
+    line-height: 90px;
+    color: #5f538e;
+    margin-top:20px;
+    margin-bottom: 20px;
+    background-color: #f6e3ff;
+    border: 1px solid rgb(216, 213, 213);
+}
+
+.table-row-title{
+    width: 25%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+}
+.table-row-budget{
+    width: 40%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+    /* padding:0px 100px 0px 100px; */
+}
+.table-row-date-created{
+    width: 15%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+}
+.table-row-status{
+    width: 20%;
+    /* border:1px solid blue; */
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+.table-row-status-button{
+    width: 120px;
+    background-color: #aaffeb;
+    height: 40px;
+    line-height: 40px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    font-weight: 400;
+    border-radius: 5px;
+}
+#progress-bar{
+    /* border: 1px solid red; */
+    width: 50%;
+}
+
+.table-row-info{
+    width: 90%;
+    height: fit-content;
+    /* border: 1px solid red; */
+    left:0;
+    right:0;
+    margin:auto;
+    display: block;
+    /* border: 1px solid red; */
+    padding: 20px 0px;
+    background-color: #fcf5ff;
+    display: none;
+}
+
+.table-row-inner-row{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: 450;
+    line-height: 40px;
+    color: grey;
+    /* p */
+}
+
+.table-row-inner-row-data{
+    height: 40px;
+    width: 100%;
+    /* border: 1px solid blue; */
+    text-align: center;
+    font-weight: 450;
+    line-height: 40px;
+    color: grey;
+    font-size: 17px;
+}
+.table-row-inner-row-title{
+    float: left;
+    height: 100%;
+    width: 25%;
+    /* border: 1px solid red; */
+}
+
+.table-row-inner-row-amount{
+    float: left;
+    height: 100%;
+    width: 35%;
+    /* border: 1px solid red; */
+}
+
+.table-row-inner-row-date{
+    float: left;
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+}
+
+.table-row-inner-row-tag{
+    float: left;
+    height: 100%;
+    width: 20%;
+    /* border: 1px solid red; */
+}
+
+.sub-header-division{
+    height: 45px;
+    /* border: 1px solid red; */
+    width: 90%;
+    left:0;
+    right:0;
+    margin:auto;
+    margin-bottom: 20px;
+    /* position: relative; */
+}
+.sub-header-division-add-button{
+    height: 100%;
+    width: 120px;
+    /* border: 1px solid blue; */
+    line-height: 45px;
+    font-weight: 500;
+    text-align: center;
+    background-color: #CF3492;
+    color: white;
+    float: left;
+    margin-right: 20px;
+    /* position: relative; */
+}
+
+.sub-header-division-search-button{
+    margin-top: 7px;
+    height: 80%;
+    width: 250px;
+    /* border: 1px solid blue; */
+    /* line-height: 45px; */
+    font-weight: 500;
+    text-align: center;
+    color: #AAAAAA;
+    float: left;
+}
+
+.search-soochis-input{
+    height: 40px !important;
+}
+
+#search-logo{
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}

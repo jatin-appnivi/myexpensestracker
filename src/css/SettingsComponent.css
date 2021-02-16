@@ -1,0 +1,21 @@
+.SettingsComponent{
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 200px;
+    margin: 20px;
+    background-color: rgb(230, 230, 230);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.UpdateSalaryButton{
+    width: 120px;
+    height: 40px;
+    background-color: pink;
+    left:0;
+    right:0;
+    margin:auto;
+    font-size:14px;
+    line-height:35px;
+}

@@ -1,0 +1,242 @@
+.ant-layout-sider-children{
+    /* background-image: linear-gradient(#a559d5, #5433a7); */
+    background-image: linear-gradient(#5433a7, #a559d5);
+}
+
+.ant-menu-dark .ant-menu-item{
+    color: rgba(255, 255, 255, 1);
+    font-size: 16px;
+    height: 50px;
+    padding: 0px 16px 0px 16px;
+    line-height: 50px;
+}
+.ant-menu-dark .ant-menu-item, .ant-menu-dark .ant-menu-item-group-title, .ant-menu-dark .ant-menu-item > a, .ant-menu-dark .ant-menu-item > span > a{
+    color: rgba(255, 255, 255, 1) !important;
+}
+.ant-menu.ant-menu-dark{
+    background: none;
+}   
+
+#logo{
+    /* background: yellow; */
+    background: none;
+    height: 150px;
+    position: relative;
+}
+#logo2{
+    /* background: yellow; */
+    background: none;
+    height: 100px;
+    position: relative;
+    display: none;
+}
+.logo-division{
+    /* border:1px solid black; */
+    height: 85%;
+    width: 70%;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    transition: all 0.3s;
+}
+.logo-division2{
+    /* border:1px solid black; */
+    height: 60%;
+    width: 100%;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    transition: all 0.3s;
+}
+.ant-menu-dark.ant-menu-dark:not(.ant-menu-horizontal) .ant-menu-item-selected{
+    background: #a983ce;
+}
+
+.ant-layout{
+    background: rgb(255, 255, 255);
+}
+
+.menuItemImageIcon{
+    height: 25px;
+    width: 25px;
+    margin:0px 8px 0px 8px;
+}
+
+.user-info-div{
+    /* border: 1px solid black; */
+    float: right;
+    width: 260px;
+    height: 100%;
+    margin-right: 40px;
+    /* margin-top: 5px; */
+}
+
+.user-info-div-left{
+    width: 30%;
+    float: left;
+    height: 100%;
+    position: relative;
+}
+
+.user-info-div-left-bell-icon{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    border: 2px solid rgb(201, 194, 194);
+    border-radius: 4px;
+}
+
+.user-info-div-left-bell-image{
+    width: 28px;
+    height: 25px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+
+.user-info-div-right{
+    width: 70%;
+    float: right;
+    height: 100%;
+    /* background-color: green; */
+}
+
+.user-info-div-right-left{
+    width: 30%;
+    height: 100%;
+    /* background-color: red; */
+    float:left;
+    /* padding-left: 10px; */
+    position: relative;
+}
+
+.user-info-div-right-middle{
+    width: 50%;
+    height: 100%;
+    /* background-color: yellow; */
+    float:left;
+}
+
+.user-info-div-right-right{
+    display:none;
+    width: 20%;
+    height: 100%;
+    /* background-color: red; */
+    border: 1px solid rgb(0, 0, 0);
+    float:left;
+    position: relative;
+}
+
+.user-info-div-right-user-image{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+
+.user-info-div-right-middle{
+    display:none;
+    padding: 0px 10px 0px 5px;
+    border: 1px solid rgb(0, 0, 0);
+}
+.user-info-div-right-middle-upper{
+    height: 60%;
+    font-weight: 500;
+    font-size: 18px;
+    color: #635791;
+    line-height: 50px;
+}
+.user-info-div-right-middle-lower{
+    height: 30%;
+    font-size: 14px;
+    color: #635791;
+    line-height: 10px;
+}
+
+.user-info-div-right-right-more{
+    width: 35px;
+    height: 35px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+}
+
+.user-info-div-right-right-more-img{
+    width: 16px;
+    height: 18px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin: auto;
+    border: 1px solid rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+#sideNavigation{
+    height: 100vh;
+    position: fixed;
+}
+
+#content-main{
+    margin: 10px 16px;
+    padding: 0;
+    min-height: calc(100vh - 112px);
+    /* border: 1px solid black; */
+    margin-left: 200px;
+    margin-top: 70px;
+    padding-bottom: 100px;
+    transition: all 0.3s;
+}
+
+#sideNavigation{
+    /* margin-left:200px; */
+}
+#site-header-main{
+    margin-left: 200px;
+    position: fixed;
+    z-index: 99;
+    width: calc( 100% - 200px );
+    height: 65px;
+    transition: all 0.25s;
+    /* background: green; */
+}
+
+.user-info-dropdown{
+    /* border: 1px solid rgb(235, 42, 42); */
+    width: 70%;
+    float: left;
+    /* display: none; */
+}
+
+.user-info-dropdown-button{
+    color:#635791;
+    font-size: 17px;
+    width: 95%;
+    font-weight: 500;
+    border: none;
+    padding: 0px 10px 0px 10px;
+    height: 20px;
+}
